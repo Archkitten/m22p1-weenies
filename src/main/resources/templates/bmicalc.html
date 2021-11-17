@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- <head> -->
+<div layout:fragment="head" th:remove="tag">
+  <!-- Page specific head additions -->
+  <title>BMI Calculator</title>
+  <script type="text/javascript">
+    function computeBMI()
+    {
+      //Obtain user inputs
+      var height=Number(document.getElementById("height").value);
+      var heightunits=document.getElementById("heightunits").value;
+      var weight=Number(document.getElementById("weight").value);
+      var weightunits=document.getElementById("weightunits").value;
+
+
+      //Convert all units to metric
+      if (heightunits=="inches") height/=39.3700787;
+      if (weightunits=="lb") weight/=2.20462;
+
+      //Perform calculation
+      var BMI=weight/Math.pow(height,2);
+
+      //Display result of calculation
+      document.getElementById("output").innerText=Math.round(BMI*100)/100;
+
+      if (output<18.5)
+        document.getElementById("comment").value = "Underweight";
+      if (output>=18.5 && output<=25)
+        document.getElementById("comment").value = "Normal";
+      if (output>=25 && output<=30)
+        document.getElementById("comment").value = "Obese";
+      if (output>30)
+        document.getElementById("comment").value = "Overweight";
+      document.getElementById("answer").value = output;
+    }
+  </script>
+</div>
+
+<!-- <body> -->
+<div layout:fragment="body" th:remove="tag">
+  <!-- Page specific body additions -->
+  <div id="spring_intro" class="articles" style="margin: 30px;text-align:center;">
+    <h1><strong>BMI Calculator</strong></h1>
+  </div>
+  <body>
+  <p>Enter your height: <input type="text" id="height"/>
+    <select type="multiple" id="heightunits">
+      <option value="metres" selected="selected">metres</option>
+      <option value="inches">inches</option>
+    </select>
+  </p>
+  <p>Enter your weight: <input type="text" id="weight"/>
+    <select type="multiple" id="weightunits">
+      <option value="kg" selected="selected">kilograms</option>
+      <option value="lb">pounds</option>
+    </select>
+  </p>
+  <input type="submit" value="computeBMI" onclick="computeBMI();">
+  <h1>Your BMI is: <span id="output">?</span></h1>
+
+  <h2>This means you are: value = "output" </h2>
+  </body>
+  <!-- End of body content specific to page -->
+</div>
+
+</html>
