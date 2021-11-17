@@ -9,9 +9,8 @@
     <title>...</title>
 </head>
 
-<body>
+<body style="background-color:white">
     <div th:replace="fragments/nav :: header" th:remove="tag">Standard header</div>
     <div layout:fragment="body" th:remove="tag">Body details are added by ThymeLeaft layout consumer</div>
-    <div th:replace="fragments/footer :: footer" th:remove="tag">Standard footer</div>
 </body>
 </html>
