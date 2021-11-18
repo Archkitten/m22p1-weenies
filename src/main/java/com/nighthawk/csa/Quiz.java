@@ -8,12 +8,20 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@Controller  // HTTP requests are handled as a controller, using the @Controller annotation
+@Controller
 public class Quiz {
-    @GetMapping("/quiz")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
-        model.addAttribute("name", name); // MODEL is passed to html
-        return "quiz"; // returns HTML VIEW (greeting)
+    @GetMapping("/quiz")
+    public String greeting(@RequestParam(name= "UserInput", required=false, defaultValue="...") String UserInputJava, Model model) {
+        if (UserInputJava.equals("...")) {
+            model.addAttribute("output", UserInputJava);
+        }
+        else if (UserInputJava.equals("19.0")) {
+            model.addAttribute("output", "Correct!");
+        }
+        else {
+            model.addAttribute("output", "Wrong!");
+        }
+        model.addAttribute("question", "What is the BMI of a 6 foot person that weighs 140 pounds? Answer to the nearest tenth.");
+        return "quiz";
     }
 }
