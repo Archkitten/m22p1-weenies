@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- <head> -->
+<div layout:fragment="head" th:remove="tag">
+    <title>Recipe API</title>
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:right;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+        body {
+            background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+    </style>
+</div>
+
+<!-- <body> -->
+<div layout:fragment="body" th:remove="tag">
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+            <h1 style="color: white"><center><strong>Cool Recipe Ideas by Edamam</strong></center></h1>
+        </div>
+
+        <table class="table" style="background-color: pink">
+            <tr>
+                <th>Dish</th>
+                <th>Recipe</th>
+                <th>Calories</th>
+                <th>Weight</th>
+                <th>Image</th>
+            </tr>
+
+            <tr th:each="hits : ${jn.hits}">
+                <td th:text="${hits.recipe.label}"></td>
+                <td th:text="${hits.recipe.shareAs}"></td>
+                <td th:text="${hits.recipe.calories}"></td>
+                <td th:text="${hits.recipe.totalWeight}"></td>
+                <td th:text="${hits.recipe.image}"></td>
+            </tr>
+        </table>
+
+
+    </div>
+</div>
+
+</html>
