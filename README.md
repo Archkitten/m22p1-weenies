@@ -1,7 +1,5 @@
-P1 WEENIES
-commit
-link to storyboard
-Team: rickrickrickrickandmorty-m221, [scrum_board](https://github.com/paul-bokelman/m221/projects/1), [contributors](https://github.com/paul-bokelman/m221/graphs/contributors), [PBL Journal](https://docs.google.com/document/d/18HXRgCK03j-oEDDNULipVbmPbQST__IhFfyIKpCGtlQ/edit?usp=sharing), [Link to Site](http://m221.tk/)
+
+Team: m22p1-weenies, [scrum_board](https://github.com/Archkitten/m22p1-weenies/projects/1), [contributors](https://github.com/Archkitten/m22p1-weenies/graphs/contributors), [Link to Site](http://m221.tk/)
 
 | Contributors            | Github ID       | Tasks  | Scrum Board | Commits | Profile |
 | :------------   |:--------------- | :----- | :---------- | :------ | :------ |
