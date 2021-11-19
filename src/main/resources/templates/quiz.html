@@ -28,7 +28,7 @@
                 <form action="/quiz" method="GET" id="greetForm">
                     <div>
                         <label for="greetField">Answer:</label>
-                        <input name="UserInput" id="greetField">
+                        <input name="UserInput" id="greetField" autocomplete="off" autofocus>
                         <button>Submit</button>
                         <p th:text="'Result: ' + ${output}"></p>
                     </div>
