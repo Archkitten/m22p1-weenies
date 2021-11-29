@@ -21,7 +21,7 @@ If you want to contribute, go over your ideas with us first by messaging us thro
 # Team Journals
 
 
-[PBL Journal](https://docs.google.com/document/d/18HXRgCK03j-oEDDNULipVbmPbQST__IhFfyIKpCGtlQ/edit?usp=sharing) - This is where the weekly plans and progress for our project are recorded.
+[PBL Journal](https://docs.google.com/document/d/1j3QMC7svdLn_iCbPPmVI2BF0OptxyuLwDC4ISRmdEwo/edit?usp=sharing) - This is where the weekly plans and progress for our project are recorded.
 
 <details>
 <summary>Samuel's Journals</summary>
