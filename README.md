@@ -34,20 +34,20 @@ If you want to contribute, go over your ideas with us first by messaging us thro
 </details>
 
 <details>
-<summary>Ishan's Journals</summary>
+<summary>Rohan's Journals</summary>
 <br>
 
-[Ishan Kapoor's Journal](https://docs.google.com/document/d/1bvbj6aZrAFg77SxrK15v2gJzfe5qRikamzlIsG5Nwc8/edit?usp=sharing)
+[Rohan Nallapati's Journal](https://docs.google.com/document/d/1bvbj6aZrAFg77SxrK15v2gJzfe5qRikamzlIsG5Nwc8/edit?usp=sharing)
   
 </details>
 
 </details>
 
 <details>
-<summary>Luca's Journals</summary>
+<summary>Ryan's Journals</summary>
 <br>
 
-[Luca Pinto Journal](https://docs.google.com/document/d/1o6jel5V2YsOTTnGLbwFYh2T1PtHx-hJ2KlFS8i6V_qs/edit?usp=sharing)
+[Ryan Moghaddes Journal](https://docs.google.com/document/d/1o6jel5V2YsOTTnGLbwFYh2T1PtHx-hJ2KlFS8i6V_qs/edit?usp=sharing)
 
 </details>
 
@@ -55,16 +55,16 @@ If you want to contribute, go over your ideas with us first by messaging us thro
 <summary>Jagroop's Journals</summary>
 <br>
 
-[Jagroop's Tech Talk Notes](https://docs.google.com/document/d/1IRCmN5pN-XwPg-95OPInClvOLiPKVoRwjU31HO49Sus/edit)
+[Arch's Tech Talk Notes](https://docs.google.com/document/d/1IRCmN5pN-XwPg-95OPInClvOLiPKVoRwjU31HO49Sus/edit)
 
-[Jagroop's Ticket of the Week](https://github.com/paul-bokelman/m221/issues/8)
+[Arch's Ticket of the Week](https://github.com/paul-bokelman/m221/issues/8)
   
 </details>
 
 <details>
-<summary>Pauls's Journals</summary>
+<summary>Dhruv's Journals</summary>
 <br>
  
-[Paul's Journal](https://docs.google.com/document/d/12QFLbm3LEl3rWMRoM3ZKEnSf0CLwelTJDJ3ESmEY55M/edit#heading=h.pkw01rg8bsdy)
+[Dhruv's Journal](https://docs.google.com/document/d/12QFLbm3LEl3rWMRoM3ZKEnSf0CLwelTJDJ3ESmEY55M/edit#heading=h.pkw01rg8bsdy)
   
 </details>
