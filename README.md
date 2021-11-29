@@ -52,7 +52,7 @@ If you want to contribute, go over your ideas with us first by messaging us thro
 </details>
 
 <details>
-<summary>Jagroop's Journals</summary>
+<summary>Arch's Journals</summary>
 <br>
 
 [Arch's Tech Talk Notes](https://docs.google.com/document/d/1IRCmN5pN-XwPg-95OPInClvOLiPKVoRwjU31HO49Sus/edit)
