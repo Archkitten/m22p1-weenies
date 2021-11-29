@@ -7,7 +7,7 @@ Team: m22p1-weenies, [scrum_board](https://github.com/Archkitten/m22p1-weenies/p
 | Rohan Nallapati   |    macddmac   | [tasks](https://github.com/Archkitten/m22p1-weenies/issues?q=assignee%3Amacddmac+is%3Aopen) | [scrum_board](https://github.com/Archkitten/m22p1-weenies/projects/1?card_filter_query=assignee%3Amacddmac) | [commits](https://github.com/Archkitten/m22p1-weenies/commits?author=macddmac) | [profile](https://github.com/macddmac)|
 | Arch     |       | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3ALordRoop)       | [scrum board](https://github.com/paul-bokelman/m221/projects/1?card_filter_query=assignee%3Alordroop) | [commits](https://github.com/paul-bokelman/m221/commits?author=LordRoop) | [profile](https://github.com/LordRoop) |
 | Samuel Mahjouri | iBraskyy      | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3AiBraskyy)       | [scrum board](https://github.com/paul-bokelman/m221/projects/1?card_filter_query=assignee%3AiBraskyy) | [commits](https://github.com/paul-bokelman/m221/commits?author=iBraskyy) | [profile](https://github.com/iBraskyy) |
-| Ryan Moghaddas     |     | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3Alucap2527)      | [scrum board](https://github.com/Archkitten/m22p1-weenies/projects/1) | [commits](https://github.com/Archkitten/m22p1-weenies/commits?author=ryanmgds) | [profile](https://github.com/lucap2527) |
+| Ryan Moghaddas     |     | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3Alucap2527)      | [scrum board](https://github.com/Archkitten/m22p1-weenies/projects/1) | [commits](https://github.com/Archkitten/m22p1-weenies/commits?author=ryanmgds) | [profile](https://github.com/ryanmgds) |
 
 
 # Purpose
