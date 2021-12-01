@@ -19,6 +19,12 @@
             document.getElementById('message')
         }
     </script>
+    <script>
+        function openTest() {
+            document.getElementById("link").style.display = "block";
+            document.getElementById('message')
+        }
+    </script>
 </div>
 
 <!-- <body> -->
@@ -37,14 +43,26 @@
               src="/images/arc.jpg" width="530" height="300"/>
     </div>
     <div class="button">
-        <button class="btn btn-info"
-                onclick=Mask1();>
+        <button class="btn btn-info" onclick=Mask1();>
             Original
         </button>
-        <button  class="btn btn-info"
-                 onclick=Mask2();>
+        <button  class="btn btn-info" onclick=Mask2();>
             New Image
         </button>
+    </div>
+
+    <br>
+
+    <div class="button">
+        <button class="btn btn-warning" onclick="openTest()">
+            Reveal Journal
+        </button>
+    </div>
+
+    <div id="link" style="display:none">
+        <a href="https://docs.google.com/document/d/1em_jarWLRf7CYE-5v51hX0MLGqWXDoDfaWKtYXLEFfI/edit?usp=sharing">
+            <embed type="image/jpg" src="https://www.apkmirror.com/wp-content/uploads/2021/11/02/61a6ab7f73e1f-384x384.png"
+                   width="160" height="160"></a>
     </div>
 
     </body>
