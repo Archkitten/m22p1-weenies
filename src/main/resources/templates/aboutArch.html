@@ -8,6 +8,17 @@
 <div layout:fragment="head" th:remove="tag">
     <!-- Page specific head additions -->
     <title>About Arch</title>
+    <script>
+        function Mask1(){
+            document.getElementById('myImage').src="https://images.freeimages.com/images/small-previews/fec/sunset-rays-1391805.jpg";
+            document.getElementById('message')
+        }
+
+        function Mask2(){
+            document.getElementById('myImage').src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg";
+            document.getElementById('message')
+        }
+    </script>
 </div>
 
 <!-- <body> -->
@@ -20,6 +31,21 @@
             background-image: url('https://cdn.wallpapersafari.com/93/58/GS1pCE.jpg');
         }
     </style>
+
+    <div class=imageContainer>
+        <img  id="myImage"
+              src="https://images.freeimages.com/images/small-previews/fec/sunset-rays-1391805.jpg" width="530" height="300"/>
+    </div>
+    <div class="button">
+        <button class="btn btn-info"
+                onclick=Mask1();>
+            Mask 1
+        </button>
+        <button  class="btn btn-info"
+                 onclick=Mask2();>
+            Mask 2
+        </button>
+    </div>
 
     </body>
     <!-- End of body content specific to page -->
