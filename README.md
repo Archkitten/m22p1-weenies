@@ -5,7 +5,7 @@ Team: m22p1-weenies, [scrum_board](https://github.com/Archkitten/m22p1-weenies/p
 | :------------   |:--------------- | :----- | :---------- | :------ | :------ |
 | Dhruv   | | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3Apaul-bokelman)  | [scrum_board](https://github.com/paul-bokelman/m221/projects/1?card_filter_query=assignee%3Apaul-bokelman) | [commits](https://github.com/paul-bokelman/m221/commits?author=paul-bokelman) | [profile](https://github.com/paul-bokelman) |
 | Rohan Nallapati   |    macddmac   | [tasks](https://github.com/Archkitten/m22p1-weenies/issues?q=assignee%3Amacddmac+is%3Aopen) | [scrum_board](https://github.com/Archkitten/m22p1-weenies/projects/1?card_filter_query=assignee%3Amacddmac) | [commits](https://github.com/Archkitten/m22p1-weenies/commits?author=macddmac) | [profile](https://github.com/macddmac)|
-| Arch     |       | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3ALordRoop)       | [scrum board](https://github.com/paul-bokelman/m221/projects/1?card_filter_query=assignee%3Alordroop) | [commits](https://github.com/paul-bokelman/m221/commits?author=LordRoop) | [profile](https://github.com/LordRoop) |
+| Arch     |       | [tasks](https://github.com/Archkitten/m22p1-weenies/issues?q=assignee%3AArchkitten+is%3Aopen)       | [scrum board](https://github.com/Archkitten/m22p1-weenies/projects/1?card_filter_query=assignee%3Aarchkitten) | [commits](https://github.com/Archkitten/m22p1-weenies/commits?author=Archkitten) | [profile](https://github.com/Archkitten) |
 | Samuel Mahjouri | iBraskyy      | [tasks](https://github.com/paul-bokelman/m221/issues?q=is%3Aopen+assignee%3AiBraskyy)       | [scrum board](https://github.com/paul-bokelman/m221/projects/1?card_filter_query=assignee%3AiBraskyy) | [commits](https://github.com/paul-bokelman/m221/commits?author=iBraskyy) | [profile](https://github.com/iBraskyy) |
 | Ryan Moghaddas     |  ryanmgds   | [tasks](https://github.com/Archkitten/m22p1-weenies/issues/assigned/ryanmgds)      | [scrum board](https://github.com/Archkitten/m22p1-weenies/projects/1) | [commits](https://github.com/Archkitten/m22p1-weenies/commits?author=ryanmgds) | [profile](https://github.com/ryanmgds) |
 
@@ -55,9 +55,7 @@ If you want to contribute, go over your ideas with us first by messaging us thro
 <summary>Arch's Journals</summary>
 <br>
 
-[Arch's Tech Talk Notes](https://docs.google.com/document/d/1IRCmN5pN-XwPg-95OPInClvOLiPKVoRwjU31HO49Sus/edit)
-
-[Arch's Ticket of the Week](https://github.com/paul-bokelman/m221/issues/8)
+[Arch's Individual Journal](https://docs.google.com/document/d/1em_jarWLRf7CYE-5v51hX0MLGqWXDoDfaWKtYXLEFfI/edit?usp=sharing)
   
 </details>
 
