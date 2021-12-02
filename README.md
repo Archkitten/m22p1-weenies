@@ -63,6 +63,6 @@ If you want to contribute, go over your ideas with us first by messaging us thro
 <summary>Dhruv's Journals</summary>
 <br>
  
-[Dhruv's Journal](https://docs.google.com/document/d/12QFLbm3LEl3rWMRoM3ZKEnSf0CLwelTJDJ3ESmEY55M/edit#heading=h.pkw01rg8bsdy)
+[Dhruv's Journal](https://docs.google.com/document/d/1ksJgk9JwqnMBn6jBaRV9fp6efm7fFPq_iuUIKYfa53E/edit?usp=sharing)
   
 </details>
