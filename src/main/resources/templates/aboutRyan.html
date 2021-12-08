@@ -25,6 +25,17 @@
             document.getElementById('message')
         }
     </script>
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:right;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+    </style>
 </div>
 
 <!-- <body> -->
@@ -64,7 +75,30 @@
             <embed type="image/jpg" src="https://www.apkmirror.com/wp-content/uploads/2021/11/02/61a6ab7f73e1f-384x384.png"
                    width="160" height="160"></a>
     </div>
+    <div class="container">
 
+        <div class="row justify-content-md-center">
+            <h1 style="color: white"><center><strong>Live Sports API</strong></center></h1>
+        </div>
+
+        <table class="table" style="background-color: white">
+            <tr>
+                <th>League</th>
+                <th>Type</th>
+                <th>Title</th>
+                <th>Active</th>
+            </tr>
+
+            <tr th:each="data : ${jn.data}">
+                <td th:text="${data.key}"></td>
+                <td th:text="${data.group}"></td>
+                <td th:text="${data.title}"></td>
+                <td th:text="${data.active}"></td>
+            </tr>
+        </table>
+
+
+    </div>
     </body>
     <!-- End of body content specific to page -->
 </div>
