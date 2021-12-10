@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- <head> -->
+<div layout:fragment="head" th:remove="tag">
+    <!-- Page specific head additions -->
+    <title>About Rohan</title>
+    <script>
+        function Mask1(){
+            document.getElementById('myImage').src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/hiking-logo-design.jpg";
+            document.getElementById('message')
+        }
+
+        function Mask2(){
+            document.getElementById('myImage').src="https://i0.wp.com/calmatters.org/wp-content/uploads/2021/08/math-curriculum.jpg?fit=1200%2C900&ssl=1";
+            document.getElementById('message')
+        }
+    </script>
+    <script>
+        function openTest() {
+            document.getElementById("link").style.display = "block";
+            document.getElementById('message')
+        }
+    </script>
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:right;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+    </style>
+</div>
+
+<!-- <body> -->
+<div layout:fragment="body" th:remove="tag">
+    <!-- Page specific body additions -->
+    <body>
+
+    <style>
+        body {
+            background-image: url('https://media.istockphoto.com/photos/the-perfect-setting-to-complete-work-picture-id1251629816?b=1&k=20&m=1251629816&s=170667a&w=0&h=HFCKUXMAXu_gsKwAaVJ5Yfc5CpXhkok4Nu1KigsAXIQ=');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <div class=imageContainer>
+        <img  id="myImage"
+              src="https://i.pinimg.com/originals/35/95/de/3595de04307aafed1eb13a44bbf70b7a.jpg" width="530" height="300"/>
+    </div>
+    <div class="button">
+        <button class="btn btn-info" onclick=Mask1();>
+            Original
+        </button>
+        <button  class="btn btn-info" onclick=Mask2();>
+            New Image
+        </button>
+    </div>
+
+    <br>
+
+    <div class="button">
+        <button class="btn btn-warning" onclick="openTest()">
+            Reveal Journal
+        </button>
+    </div>
+
+    <div id="link" style="display:none">
+        <a href="https://docs.google.com/document/d/1Dgo7CY2jxnVj65bZKBA6qgkrpPXyoRsbat23JUp7-yU/edit">
+            <embed type="image/jpg" src="https://www.apkmirror.com/wp-content/uploads/2021/11/02/61a6ab7f73e1f-384x384.png"
+                   width="160" height="160"></a>
+    </div>
+    <div id="spring_intro" class="articles" style="margin: 10px;color: yellowgreen">
+        <h2><strong>My name is Rohan. I have a lab hound mix dog, I like hiking, and I enjoy doing math!</strong></h2>
+    </div>
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+            <h1 style="color: red"><center><strong>Soccer API</strong></center></h1>
+        </div>
+
+        <table class="table" style="background-color: yellow">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Nationality</th>
+                <th>Weight</th>
+                <th>Height</th>
+            </tr>
+
+            <tr th:each="response : ${jn.response}">
+                <td th:text="${response.player.firstname}"></td>
+                <td th:text="${response.player.lastname}"></td>
+                <td th:text="${response.player.nationality}"></td>
+                <td th:text="${response.player.weight}"></td>
+                <td th:text="${response.player.height}"></td>
+            </tr>
+        </table>
+
+
+    </div>
+    </body>
+    <!-- End of body content specific to page -->
+</div>
+
+</html>
