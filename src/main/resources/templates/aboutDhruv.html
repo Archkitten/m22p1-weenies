@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- <head> -->
+<div layout:fragment="head" th:remove="tag">
+    <!-- Page specific head additions -->
+    <title>About Dhruv</title>
+    <script>
+        function Mask1(){
+            document.getElementById('myImage').src="/images/DhruvMask.jpeg"
+            document.getElementById('message')
+        }
+
+        function Mask2(){
+            document.getElementById('myImage').src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIuhfitL-9GsmcQXYCXX9jgTyrwtaCx3JZF-bEr4NiHij8hCQZbqVIHjsd9OQ2MgBTa24&usqp=CAU";
+            document.getElementById('message')
+        }
+    </script>
+    <script>
+        function openTest() {
+            document.getElementById("link").style.display = "block";
+            document.getElementById('message')
+        }
+    </script>
+</div>
+
+<!-- <body> -->
+<div layout:fragment="body" th:remove="tag">
+    <!-- Page specific body additions -->
+    <body>
+
+    <style>
+        body {
+            background-image: url('data:image/jpeg;base64,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');
+        }
+    </style>
+
+    <div class=imageContainer>
+        <img  id="myImage"
+              src="/images/DhruvMask.jpeg" width="530" height="300"/>
+    </div>
+    <div class="button">
+        <button class="btn btn-info" onclick=Mask1();>
+            Original
+        </button>
+        <button  class="btn btn-info" onclick=Mask2();>
+            New Image
+        </button>
+    </div>
+
+    <br>
+
+    <div class="button">
+        <button class="btn btn-warning" onclick="openTest()">
+            My trimester 2 journal
+        </button>
+    </div>
+
+    <div id="link" style="display:none">
+        <a href="https://docs.google.com/document/d/1ksJgk9JwqnMBn6jBaRV9fp6efm7fFPq_iuUIKYfa53E/edit?usp=sharing">
+            <embed type="image/jpg" src="https://cdn4.vectorstock.com/i/1000x1000/59/38/click-here-button-vector-13425938.jpg"
+                   width="160" height="160"></a>
+    </div>
+
+    </body>
+</div>
+
+</html>
